@@ -24,9 +24,12 @@ python3 -m http.server 8000
 ## Estructura
 
 ```
-index.html          # la página: estilos, panel y lógica del mapa
-data/cantones.js    # límites de los 83 cantones (GeoJSON simplificado)
-data/provincias.js  # límites de las 7 provincias
+index.html            # la página (solo el HTML)
+css/estilos.css       # todos los estilos
+js/app.js             # lógica del mapa, panel y progreso guardado
+data/cantones.js      # límites de los 83 cantones (GeoJSON simplificado)
+data/provincias.js    # límites de las 7 provincias
+assets/favicon.svg    # ícono de la pestaña
 ```
 
 ## Tecnologías
